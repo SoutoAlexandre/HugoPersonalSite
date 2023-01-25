@@ -26,7 +26,7 @@ showHeaderOnHomepage = true
 googleAnalytics = "G-XX00000"
 
 # True if you want to use Twemoji (optional)
-twemoji = true
+twemoji = false
 
 # Optional text for 404 text.
 text404 = "Some text"
