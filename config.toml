@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://soutoalex.github.io/LabVeilTech/"
 theme = "salinger"
 title = "salinger"
 copyright = '2001 John Doe'
