@@ -8,7 +8,7 @@ toc = true
 > 🔥 trytry
 
 ## Global Config  
-Besides to [Hugo Global config](https://gohugo.io/content-management/front-matter/) there are some more variables that can be used in config.toml.
+Beside to [Hugo Global config](https://gohugo.io/content-management/front-matter/) there are some more variables that can be used in config.toml.
 
 ### Site Params  
 
