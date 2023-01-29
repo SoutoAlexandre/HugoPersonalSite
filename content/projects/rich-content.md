@@ -5,7 +5,7 @@ description = "How to config salinger theme using front matter"
 toc = true
 +++
 
-> 🔥 read the update wiki on the github wiki section
+> 🔥 trytry
 
 ## Global Config  
 Besides to [Hugo Global config](https://gohugo.io/content-management/front-matter/) there are some more variables that can be used in config.toml.
