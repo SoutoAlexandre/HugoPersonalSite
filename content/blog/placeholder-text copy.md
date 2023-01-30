@@ -3,16 +3,9 @@ author = "Alexandre Souto"
 title = "L'équilibre ⚖️ entre le SEO et l'UX"
 date = "2019-03-09"
 description = "L'équilibre ⚖️ entre le SEO et l'UX"
-tags = [
-    "markdown",
-    "text",
-]
-categories = [
-    "theme"
-]
 +++
 
-Lien de l'article : [https://uxmag.com/articles/finding-a-balance-between-ux-and-seo]
+Lien de l'article : [UXmag](https://uxmag.com/articles/finding-a-balance-between-ux-and-seo)
 
 ## Introduction
 L’article intitulé « Finding a Balance Between UX and SEO » (ou trouver un équilibre entre l’UX et le SEO) traite de l’importance de trouver un équilibre entre l’expérience utilisateur (UX) et le référencement (SEO) lors de la conception d’un site Web.
