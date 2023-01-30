@@ -35,84 +35,40 @@ Published on January 2023</span>.</h6>
 <h4>Table of Content</h4>
 <nav id=TableOfContents>
 <ul>
-<li><a href=#global-config>Global Config</a>
+<li><a href=#définitions>Définitions</a></li>
+<li><a href=#taxonomie>Taxonomie</a></li>
+<li><a href=#sous-domaines>Sous-domaines</a></li>
+<li><a href=#pourquoi-ce-domaine->Pourquoi ce domaine ?</a>
 <ul>
-<li><a href=#site-params>Site Params</a></li>
-<li><a href=#social-links>Social links</a></li>
-<li><a href=#menu>Menu</a></li>
+<li><a href=#ma-formation-initiale>Ma formation initiale</a></li>
+<li><a href=#ce-que-jaime-dans-dans-lux-et-lui>Ce que j&rsquo;aime dans dans l&rsquo;UX et l&rsquo;UI</a></li>
 </ul>
 </li>
-<li><a href=#page-config>Page config</a></li>
-<li><a href=#taxonomy>Taxonomy</a></li>
+<li><a href=#mon-ikigai>Mon Ikigai</a></li>
 </ul>
 </nav>
 </aside>
-<div class=post-text><blockquote>
-<p>🔥 read the update wiki on the github wiki section</p>
+<div class=post-text><h2 id=définitions>Définitions</h2>
+<blockquote>
+<p>UX: l&rsquo;expérience utilisateur, c&rsquo;est l&rsquo;ensemble des facteurs qui affectent les interactions d&rsquo;un utilisateur avec un produit ou un service, y compris la convivialité, la facilité d&rsquo;utilisation et la satisfaction.</p>
 </blockquote>
-<h2 id=global-config>Global Config</h2>
-<p>Besides to <a href=https://gohugo.io/content-management/front-matter/>Hugo Global config</a> there are some more variables that can be used in config.toml.</p>
-<h3 id=site-params>Site Params</h3>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml>
-<span style=color:#75715e># Optional Footer</span>
-<span style=color:#a6e22e>copyright</span> = <span style=color:#e6db74>&#39;Name&#39;</span>
-
-[<span style=color:#a6e22e>params</span>]
-
-<span style=color:#75715e># True if the header must appears also in the homepage (default: True)</span>
-<span style=color:#a6e22e>showHeaderOnHomepage</span> = <span style=color:#66d9ef>true</span>
-
-<span style=color:#75715e># Google Analytics G-Tag (optional)</span>
-<span style=color:#a6e22e>googleAnalytics</span> = <span style=color:#e6db74>&#34;G-XX00000&#34;</span>
-
-<span style=color:#75715e># True if you want to use Twemoji (optional)</span>
-<span style=color:#a6e22e>twemoji</span> = <span style=color:#66d9ef>false</span>
-
-<span style=color:#75715e># Optional text for 404 text.</span>
-<span style=color:#a6e22e>text404</span> = <span style=color:#e6db74>&#34;Some text&#34;</span>
-
-<span style=color:#75715e># Font Awesome 6 id. Optional, FA4 will be used without any ID provided.</span>
-<span style=color:#a6e22e>fontawesomekitcode</span> = <span style=color:#e6db74>&#34;123456789&#34;</span>
-</code></pre></div><h3 id=social-links>Social links</h3>
-<p>Social links can be add in the homepage by writing them directly on config.toml</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml>[[<span style=color:#a6e22e>params</span>.<span style=color:#a6e22e>social</span>]]
-<span style=color:#a6e22e>name</span> = <span style=color:#e6db74>&#34;email&#34;</span>
-<span style=color:#a6e22e>icon</span> = <span style=color:#e6db74>&#34;fa fa-envelope&#34;</span> <span style=color:#75715e># name of FA icon</span>
-<span style=color:#a6e22e>url</span> = <span style=color:#e6db74>&#34;https://t.me/example&#34;</span> 
-<span style=color:#a6e22e>before</span> = <span style=color:#e6db74>&#34;and on &#34;</span> <span style=color:#75715e># text before the icon</span>
-<span style=color:#a6e22e>after</span> = <span style=color:#e6db74>&#34;.&#34;</span> <span style=color:#75715e># text after the icon</span>
-</code></pre></div><h3 id=menu>Menu</h3>
-<p>The header menu is also configurable:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml>[<span style=color:#a6e22e>Menu</span>]
-[[<span style=color:#a6e22e>Menu</span>.<span style=color:#a6e22e>Main</span>]]
-<span style=color:#a6e22e>name</span> = <span style=color:#e6db74>&#34;Projects.&#34;</span>
-<span style=color:#a6e22e>url</span> = <span style=color:#e6db74>&#34;/projects/&#34;</span>
-<span style=color:#a6e22e>weight</span> = <span style=color:#ae81ff>1</span>
-</code></pre></div><h2 id=page-config>Page config</h2>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown>---
-# the title that appears on the single page
-title: &#34;example title&#34;
-
-# optional: if provided appears on the home page instead of the title
-description: &#34;this is and example description longer that the title.&#34;
-
-
-date: 2021-03-17T22:00:00Z
-slug: &#34;website-page-cool&#34;
-
-# optional: to display toc on bigger screens (toc on smartphones isn&#39;t supported yet)
-toc: true
----
-</code></pre></div><h2 id=taxonomy>Taxonomy</h2>
-<p>E.g.: you want use the categories and tags taxonomies.</p>
-<p>In the config file:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml>[<span style=color:#a6e22e>taxonomies</span>]
-	<span style=color:#a6e22e>tag</span> = <span style=color:#e6db74>&#34;tags&#34;</span>
-	<span style=color:#a6e22e>category</span> = <span style=color:#e6db74>&#34;categories&#34;</span>
-</code></pre></div><p>In each article:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown>categories: [&#34;cat1&#34;]
-tags: [&#34;tag1&#34;, &#34;...&#34;]
-</code></pre></div></div>
+<p>UI: l&rsquo;interface utilisateur, c&rsquo;est la manière dont un produit ou un service est présenté à l&rsquo;utilisateur, y compris les éléments visuels et interactifs tels que les boutons, les icônes et les menus.<br></p>
+<blockquote>
+<p>— <cite>ChatGPT</cite></p>
+</blockquote>
+<h2 id=taxonomie>Taxonomie</h2>
+<p>Expérience, interface, interaction, empathie, utilisateurs, ergonomie, prototypes, recherches, Design, graphisme</p>
+<h2 id=sous-domaines>Sous-domaines</h2>
+<p>Recherches utilisateurs, architecture d&rsquo;informations, design de solutions, design d&rsquo;interfaces</p>
+<h2 id=pourquoi-ce-domaine->Pourquoi ce domaine ?</h2>
+<h3 id=ma-formation-initiale>Ma formation initiale</h3>
+<p>Avant ma formation d&rsquo;ingénieur des médias, j&rsquo;ai effectué un CFC d&rsquo;automaticien. Cependant, je n&rsquo;étais pas très bon dans mon métier. Mais il y a des tâches où j&rsquo;étais le meilleur de ma volée; vulgariser et expliquer la formation aux personnes extérieures lors des portes ouvertes et créer les interface IHM.
+Je pense que ces deux qualités ont étées les prémices pour ma spécialsiation dans le domaine de l&rsquo;UX et l&rsquo;UI.</p>
+<h3 id=ce-que-jaime-dans-dans-lux-et-lui>Ce que j&rsquo;aime dans dans l&rsquo;UX et l&rsquo;UI</h3>
+<p>J&rsquo;aime tout d&rsquo;abord le côté sociologique de l&rsquo;UX, la psychologie qui se cache lorsque l&rsquo;on essaye de comprendre pourquoi un utilisateur agit comme il le fait en fonction de qui il est. J&rsquo;aime la démarche ingénieure de chercher ce qui pose problème et d&rsquo;en trouver des solutions. Enfin, j&rsquo;aime le côté rigoureux mais à la fois créatif que l&rsquo;on peut trouver lors de designs d&rsquo;interfaces.</p>
+<h2 id=mon-ikigai>Mon Ikigai</h2>
+<p><img src=/ikigai.png alt=monIkigai title="Mon Ikigai"></p>
+</div>
 </article>
 </main><footer>
 <h6> &copy; 2023 - 2001 John Doe <br>
