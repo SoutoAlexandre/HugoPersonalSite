@@ -5,12 +5,13 @@ description = "L'UX/UI et moi"
 toc = true
 +++
 
-
+Dans cette page, je vais tout d'abord expliquer simplement ce que sont l'UX et l'UI, leur sous-domaines et leur taxonomie. Je vais ensuite vous expliquer mon histoire par rapport avec ce corps de métier et ce qui me plait dans celui-ci. Finalement je vais vous montrer mon Ikigai.
 
 ## Définitions
 > UX: l'expérience utilisateur, c'est l'ensemble des facteurs qui affectent les interactions d'un utilisateur avec un produit ou un service, y compris la convivialité, la facilité d'utilisation et la satisfaction.
 
-UI: l'interface utilisateur, c'est la manière dont un produit ou un service est présenté à l'utilisateur, y compris les éléments visuels et interactifs tels que les boutons, les icônes et les menus.<br>
+>UI: l'interface utilisateur, c'est la manière dont un produit ou un service est présenté à l'utilisateur, y compris les éléments visuels et interactifs tels que les boutons, les icônes et les menus.<br>
+
 > — <cite>ChatGPT</cite>
 
 ## Taxonomie 
@@ -30,5 +31,5 @@ J'aime tout d'abord le côté sociologique de l'UX, la psychologie qui se cache 
 
 
 ## Mon Ikigai
-![monIkigai](/ikigai.png "Mon Ikigai")
+![monIkigai](/Ikigai.png "Mon Ikigai")
 
