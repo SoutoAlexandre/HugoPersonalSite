@@ -5,96 +5,30 @@ description = "L'UX/UI et moi"
 toc = true
 +++
 
-> 🔥 read the update wiki on the github wiki section
-
-## Global Config  
-Besides to [Hugo Global config](https://gohugo.io/content-management/front-matter/) there are some more variables that can be used in config.toml.
-
-### Site Params  
-
-```toml
-
-# Optional Footer
-copyright = 'Name'
-
-[params]
-
-# True if the header must appears also in the homepage (default: True)
-showHeaderOnHomepage = true
-
-# Google Analytics G-Tag (optional)
-googleAnalytics = "G-XX00000"
-
-# True if you want to use Twemoji (optional)
-twemoji = false
-
-# Optional text for 404 text.
-text404 = "Some text"
-
-# Font Awesome 6 id. Optional, FA4 will be used without any ID provided.
-fontawesomekitcode = "123456789"
-```
-
-### Social links  
-
-Social links can be add in the homepage by writing them directly on config.toml
-
-```toml
-[[params.social]]
-name = "email"
-icon = "fa fa-envelope" # name of FA icon
-url = "https://t.me/example" 
-before = "and on " # text before the icon
-after = "." # text after the icon
-```
-
-### Menu  
-
-The header menu is also configurable:
-
-```toml
-[Menu]
-[[Menu.Main]]
-name = "Projects."
-url = "/projects/"
-weight = 1
-``` 
-
-## Page config  
-
-```markdown
----
-# the title that appears on the single page
-title: "example title"
-
-# optional: if provided appears on the home page instead of the title
-description: "this is and example description longer that the title."
 
 
-date: 2021-03-17T22:00:00Z
-slug: "website-page-cool"
+## Définitions
+> UX: l'expérience utilisateur, c'est l'ensemble des facteurs qui affectent les interactions d'un utilisateur avec un produit ou un service, y compris la convivialité, la facilité d'utilisation et la satisfaction.
 
-# optional: to display toc on bigger screens (toc on smartphones isn't supported yet)
-toc: true
----
-```
+UI: l'interface utilisateur, c'est la manière dont un produit ou un service est présenté à l'utilisateur, y compris les éléments visuels et interactifs tels que les boutons, les icônes et les menus.<br>
+> — <cite>ChatGPT</cite>
 
-## Taxonomy  
+## Taxonomie 
+Expérience, interface, interaction, empathie, utilisateurs, ergonomie, prototypes, recherches, Design, graphisme
+
+## Sous-domaines
+Recherches utilisateurs, architecture d'informations, design de solutions, design d'interfaces
 
 
-E.g.: you want use the categories and tags taxonomies.
+## Pourquoi ce domaine ?
+### Ma formation initiale
+Avant ma formation d'ingénieur des médias, j'ai effectué un CFC d'automaticien. Cependant, je n'étais pas très bon dans mon métier. Mais il y a des tâches où j'étais le meilleur de ma volée; vulgariser et expliquer la formation aux personnes extérieures lors des portes ouvertes et créer les interface IHM. 
+Je pense que ces deux qualités ont étées les prémices pour ma spécialsiation dans le domaine de l'UX et l'UI.
 
-In the config file:
+### Ce que j'aime dans dans l'UX et l'UI
+J'aime tout d'abord le côté sociologique de l'UX, la psychologie qui se cache lorsque l'on essaye de comprendre pourquoi un utilisateur agit comme il le fait en fonction de qui il est. J'aime la démarche ingénieure de chercher ce qui pose problème et d'en trouver des solutions. Enfin, j'aime le côté rigoureux mais à la fois créatif que l'on peut trouver lors de designs d'interfaces.
 
-```toml
-[taxonomies]
-	tag = "tags"
-	category = "categories"
-```
 
-In each article:
+## Mon Ikigai
+![monIkigai](/ikigai.png "Mon Ikigai")
 
-```markdown
-categories: ["cat1"]
-tags: ["tag1", "..."]
-```
