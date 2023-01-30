@@ -10,6 +10,7 @@ toc = true
 En 3e année de Bachelor en ingénierie des médias, le cours « Laboratoire de veille technologique » demande aux élèves de créer un système d’écoute pour apprendre à mieux être récolter s’informer sur l’actualité de notre domaine de prédilection. Il en va de choisir les canaux d’écoute, mais aussi les émetteurs de ces actualités. 
 
 
+
 ## Résumé du système d'écoute
 Pour ma part, mon domaine professionnel est l’UX/UI Design. Je m’étais déjà créé un modeste système d’écoute, me permettant de découvrir des logiciels et autres outils, notamment dans le domaine du design d’interface. Il s’articulait autour de posts Instagram de personnalités UX connues dans ce milieu.
 
@@ -24,18 +25,19 @@ Enfin, pour améliorer ma sensibilité d’un point de vue plus artistique, j’
 
 Voilà un petit résumé de mon travail de création de système d’écoute. Grâce à lui j’ai réussi à me créer de nouvelles habitudes comme l’utilisation de Tweeter, la lecture de newsletter dans mon domaine professionnel, des sites pour trouver de l’inspiration et des publications pour obtenir des astuces.
 
+
+
 ## Listes des émetteurs  
 
-
-uxswipe - Instagram - Daily UX tips in your feed
-ui.sergio- Instagram - UX/UI Designer
-uiadrian - Instagram - Concepteur, auteur : The ultimate guide to master mobile
-zanderwhitehurst - Instagram - Concepteur UX/UI
-Luke Wroblewski - Twitter @lukew - Expert design mobile
-Smashing Magazine - Twitter @smashingmag - Articles UX 
-UX Collective - Newsletter / Linkedin - weekly newsletter 
-UX Magazine - Linkedin - Hub to discuss user experience
-Nielsen Norman Group - site web - UX news
-UXmatters - blog - pratiques UX
-Dribbble - Platefrorme de partage de designers
-Behance - Plateforme de partage d’artistes
+uxswipe - Instagram - Daily UX tips in your feed  
+ui.sergio- Instagram - UX/UI Designer  
+uiadrian - Instagram - Concepteur, auteur : The ultimate guide to master mobile  
+zanderwhitehurst - Instagram - Concepteur UX/UI  
+Luke Wroblewski - Twitter @lukew - Expert design mobile  
+Smashing Magazine - Twitter @smashingmag - Articles UX   
+UX Collective - Newsletter / Linkedin - weekly newsletter    
+UX Magazine - Linkedin - Hub to discuss user experience   
+Nielsen Norman Group - site web - UX news   
+UXmatters - blog - pratiques UX   
+Dribbble - Plateforme de partage de designers   
+Behance - Plateforme de partage d’artistes   
