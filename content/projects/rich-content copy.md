@@ -31,5 +31,5 @@ J'aime tout d'abord le côté sociologique de l'UX, la psychologie qui se cache 
 
 
 ## Mon Ikigai
-![monIkigai](../projects/Ikigai.png "Mon Ikigai")
+![monIkigai](../Ikigai.png "Mon Ikigai")
 
