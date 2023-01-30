@@ -35,84 +35,36 @@ Published on January 2023</span>.</h6>
 <h4>Table of Content</h4>
 <nav id=TableOfContents>
 <ul>
-<li><a href=#global-config>Global Config</a>
-<ul>
-<li><a href=#site-params>Site Params</a></li>
-<li><a href=#social-links>Social links</a></li>
-<li><a href=#menu>Menu</a></li>
-</ul>
-</li>
-<li><a href=#page-config>Page config</a></li>
-<li><a href=#taxonomy>Taxonomy</a></li>
+<li><a href=#contexte>Contexte</a></li>
+<li><a href=#résumé-du-système-découte>Résumé du système d&rsquo;écoute</a></li>
+<li><a href=#listes-des-émetteurs>Listes des émetteurs</a></li>
 </ul>
 </nav>
 </aside>
-<div class=post-text><blockquote>
-<p>🔥 trytry</p>
-</blockquote>
-<h2 id=global-config>Global Config</h2>
-<p>Beside to <a href=https://gohugo.io/content-management/front-matter/>Hugo Global config</a> there are some more variables that can be used in config.toml.</p>
-<h3 id=site-params>Site Params</h3>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml>
-<span style=color:#75715e># Optional Footer</span>
-<span style=color:#a6e22e>copyright</span> = <span style=color:#e6db74>&#39;Name&#39;</span>
-
-[<span style=color:#a6e22e>params</span>]
-
-<span style=color:#75715e># True if the header must appears also in the homepage (default: True)</span>
-<span style=color:#a6e22e>showHeaderOnHomepage</span> = <span style=color:#66d9ef>true</span>
-
-<span style=color:#75715e># Google Analytics G-Tag (optional)</span>
-<span style=color:#a6e22e>googleAnalytics</span> = <span style=color:#e6db74>&#34;G-XX00000&#34;</span>
-
-<span style=color:#75715e># True if you want to use Twemoji (optional)</span>
-<span style=color:#a6e22e>twemoji</span> = <span style=color:#66d9ef>false</span>
-
-<span style=color:#75715e># Optional text for 404 text.</span>
-<span style=color:#a6e22e>text404</span> = <span style=color:#e6db74>&#34;Some text&#34;</span>
-
-<span style=color:#75715e># Font Awesome 6 id. Optional, FA4 will be used without any ID provided.</span>
-<span style=color:#a6e22e>fontawesomekitcode</span> = <span style=color:#e6db74>&#34;123456789&#34;</span>
-</code></pre></div><h3 id=social-links>Social links</h3>
-<p>Social links can be add in the homepage by writing them directly on config.toml</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml>[[<span style=color:#a6e22e>params</span>.<span style=color:#a6e22e>social</span>]]
-<span style=color:#a6e22e>name</span> = <span style=color:#e6db74>&#34;email&#34;</span>
-<span style=color:#a6e22e>icon</span> = <span style=color:#e6db74>&#34;fa fa-envelope&#34;</span> <span style=color:#75715e># name of FA icon</span>
-<span style=color:#a6e22e>url</span> = <span style=color:#e6db74>&#34;https://t.me/example&#34;</span> 
-<span style=color:#a6e22e>before</span> = <span style=color:#e6db74>&#34;and on &#34;</span> <span style=color:#75715e># text before the icon</span>
-<span style=color:#a6e22e>after</span> = <span style=color:#e6db74>&#34;.&#34;</span> <span style=color:#75715e># text after the icon</span>
-</code></pre></div><h3 id=menu>Menu</h3>
-<p>The header menu is also configurable:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml>[<span style=color:#a6e22e>Menu</span>]
-[[<span style=color:#a6e22e>Menu</span>.<span style=color:#a6e22e>Main</span>]]
-<span style=color:#a6e22e>name</span> = <span style=color:#e6db74>&#34;Projects.&#34;</span>
-<span style=color:#a6e22e>url</span> = <span style=color:#e6db74>&#34;/projects/&#34;</span>
-<span style=color:#a6e22e>weight</span> = <span style=color:#ae81ff>1</span>
-</code></pre></div><h2 id=page-config>Page config</h2>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown>---
-# the title that appears on the single page
-title: &#34;example title&#34;
-
-# optional: if provided appears on the home page instead of the title
-description: &#34;this is and example description longer that the title.&#34;
-
-
-date: 2021-03-17T22:00:00Z
-slug: &#34;website-page-cool&#34;
-
-# optional: to display toc on bigger screens (toc on smartphones isn&#39;t supported yet)
-toc: true
----
-</code></pre></div><h2 id=taxonomy>Taxonomy</h2>
-<p>E.g.: you want use the categories and tags taxonomies.</p>
-<p>In the config file:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml>[<span style=color:#a6e22e>taxonomies</span>]
-	<span style=color:#a6e22e>tag</span> = <span style=color:#e6db74>&#34;tags&#34;</span>
-	<span style=color:#a6e22e>category</span> = <span style=color:#e6db74>&#34;categories&#34;</span>
-</code></pre></div><p>In each article:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown>categories: [&#34;cat1&#34;]
-tags: [&#34;tag1&#34;, &#34;...&#34;]
-</code></pre></div></div>
+<div class=post-text><h2 id=contexte>Contexte</h2>
+<p>En 3e année de Bachelor en ingénierie des médias, le cours « Laboratoire de veille technologique » demande aux élèves de créer un système d’écoute pour apprendre à mieux être récolter s’informer sur l’actualité de notre domaine de prédilection. Il en va de choisir les canaux d’écoute, mais aussi les émetteurs de ces actualités.</p>
+<h2 id=résumé-du-système-découte>Résumé du système d&rsquo;écoute</h2>
+<p>Pour ma part, mon domaine professionnel est l’UX/UI Design. Je m’étais déjà créé un modeste système d’écoute, me permettant de découvrir des logiciels et autres outils, notamment dans le domaine du design d’interface. Il s’articulait autour de posts Instagram de personnalités UX connues dans ce milieu.</p>
+<p>Dans le cadre du cours, j’ai dû découvrir bon nombre d’acteurs du domaine des expériences et interfaces utilisateurs. Tout d’abord je me suis intéressé à des pionniers dans le milieu : le Nielsen & Norman Group. Je ne connaissais que leurs noms à travers les heuristiques de Nielsen et les speechs de design de Don Norman. J’ai découvert que ces deux messieurs s’étaient alliés pour créer un des groupes les plus influents quand on parle de recherche et d’actualité UX. Je me suis donc abonné à leur compte tweeter et ouvre le blog à chaque fois que je fais de la veille active.
+J’ai ensuite décidé de continuer d’élargir mon système d’écoute en restant sur le réseau de l’oiseau bleu. Avec un peu de recherches et de recommandations, j’ai également suivi le compte de « Smashing magazine » et « Luke Wroblewski » qui sont respectivement des comptes d’articles UX et expert de design mobile.</p>
+<p>Quoi de mieux qu’un réseau social professionnel pour élargir ses connaissances professionnelles ? LinkedIn a été ma cible suivante et j’y ai découvert l’émetteur qui m’a le plus plu dans ce travail ; UX Collective. Cette chaîne a le chic pour trouver des titres d’articles qui me donnent envie de le lire. J’ouvre d’ailleurs leur newsletter à chaque fois que je la reçois. Vous trouverez dans mes futurs articles des analyses de textes écrits par ce collectif New-Yorkais.</p>
+<p>Je suis également resté fidèle à mes premières ressources en trouvant quelques comptes Instagram qui donnent des astuces UX et UI. Parmi elles nous pouvons notamment cité ui. sergio, uxswipe, uiadrian.</p>
+<p>Enfin, pour améliorer ma sensibilité d’un point de vue plus artistique, j’ai décidé de m’investir sur les plateformes Dribbble et Behance. Je possédais déjà un compte sur chacune d’entre elles auparavant, mais je n’y avais jamais vraiment pris le de temps d’y consacré mon énergie. C’est maintenant chose faite, je me félicite du fait que mon premier réflexe quand je cherche de l’inspiration est de me rendre sur ces sites.</p>
+<p>Voilà un petit résumé de mon travail de création de système d’écoute. Grâce à lui j’ai réussi à me créer de nouvelles habitudes comme l’utilisation de Tweeter, la lecture de newsletter dans mon domaine professionnel, des sites pour trouver de l’inspiration et des publications pour obtenir des astuces.</p>
+<h2 id=listes-des-émetteurs>Listes des émetteurs</h2>
+<p>uxswipe - Instagram - Daily UX tips in your feed
+ui.sergio- Instagram - UX/UI Designer
+uiadrian - Instagram - Concepteur, auteur : The ultimate guide to master mobile
+zanderwhitehurst - Instagram - Concepteur UX/UI
+Luke Wroblewski - Twitter @lukew - Expert design mobile
+Smashing Magazine - Twitter @smashingmag - Articles UX
+UX Collective - Newsletter / Linkedin - weekly newsletter
+UX Magazine - Linkedin - Hub to discuss user experience
+Nielsen Norman Group - site web - UX news
+UXmatters - blog - pratiques UX
+Dribbble - Platefrorme de partage de designers
+Behance - Plateforme de partage d’artistes</p>
+</div>
 </article>
 </main><footer>
 <h6> &copy; 2023 - 2001 John Doe <br>
