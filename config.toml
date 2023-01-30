@@ -21,12 +21,12 @@ text404 = "Since the page you were looking for seems like doesn't exist, we <str
 [Menu]
 [[Menu.Main]]
 name = "À propos."
-url = "/apropos/"
+url = "/projects/"
 weight = 1
 
 [[Menu.Main]]
 name = "Contact me."
-url = "mailto:mail@mail.com"
+url = "mailto:alexandr.souto@heig-vd.ch.ch"
 weight = 2
 
 [taxonomies]
