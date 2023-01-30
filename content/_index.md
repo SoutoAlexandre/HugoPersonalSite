@@ -1,4 +1,4 @@
 ---
-title: "Alex Souto's UX/UI blog"
+title: "Blog d'UX/UI d'Alex Souto"
 ---
- I'm a media engineering student 🖥 based in Switzerland 🇨🇭.  I am keen on UX and UI 📲 and designing random stuffs 🚀.  I like eating cinema 🎥 and running 🏃🏻‍♂️. This is a blog where I talk about UX/UI.
+Je suis un étudiant en ingénierie des Médias 🖥 basé en Suisse 🇨🇭. Je suis un passionné d'UX et d'UI 📲 et de design en tout genre 🚀. J'aime le cinéma 🎥  et je pratique la course à pied 🏃🏻‍♂️. Ceci est mon blog où je parle de UX/UI.
