@@ -9,7 +9,7 @@ DateFormat = "January 2006"
 
 author = "John Doe"
 description = "I'm a computer engineering student based in Modena, Italy. I like developing and designing random stuffs."
-header = "<strong>Hi, I'm Alex. 👋 </strong>"
+header = "<strong>Hi, I'm Alex. 👋🏼 </strong>"
 keywords = [ "Portfolio", "developer", "coding", "maker"]
 showHeaderOnHomepage = false
 #googleAnalytics = ""
