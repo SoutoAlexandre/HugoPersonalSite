@@ -20,8 +20,8 @@ text404 = "Since the page you were looking for seems like doesn't exist, we <str
 
 [Menu]
 [[Menu.Main]]
-name = "Projects."
-url = "/projects/"
+name = "À propos."
+url = "/apropos/"
 weight = 1
 
 [[Menu.Main]]

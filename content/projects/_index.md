@@ -1,5 +1,5 @@
 ---
-title: "Last projects. 🤖"
+title: "À propos. 👨🏻‍💻"
 weight: 10
 ---
-Here are a few projects that I made.
+Voici la page où je parle de moi et mon domaine
