@@ -1,7 +1,7 @@
 +++
-title = "Front Matter"
-date = "2019-03-10"
-description = "How to config salinger theme using front matter"
+title = "Mon système d'écoute 📡"
+date = "2023-01-30"
+description = "Mon système d'écoute de veille technologique 📡"
 toc = true
 +++
 

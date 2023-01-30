@@ -1,7 +1,7 @@
 +++
-title = "Front Matter"
-date = "2019-03-10"
-description = "trytry"
+title = "Le domaine de l'UX/UI et ce qui me lie à lui"
+date = "2023-01-30"
+description = "L'UX/UI et moi"
 toc = true
 +++
 
