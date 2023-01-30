@@ -1,5 +1,5 @@
 +++
-author = "Hugo Authors"
+author = "Alexandre Souto"
 title = "Expérience 🧪 : Test de Framer."
 date = "2023-01-30"
 description = "Expérience 🧪 : Test de Framer."
@@ -23,4 +23,4 @@ Je n’en croyais pas mes yeux. Il fallait que je teste plus en profondeur. Je m
 ## Conclusion de l'expérience
 En définitive. je pense donc avoir trouvé un outil fiable me permettant de publier des sites vitrine et des applications simples directement après en avoir créé les maquettes sur des logiciels de design, en l’occurrence Figma 
 
-Lien vers Framer : [Lien vers Framer](https://www.framer.com)
+[Lien vers Framer](https://www.framer.com)
