@@ -1,7 +1,7 @@
 +++
 author = "Alexandre Souto"
 title = "L'importance des diplômes en UX 🎓"
-date = "2019-03-05"
+date = "2023-01-30"
 description = "L'importance des diplômes en UX 🎓"
 
 +++
