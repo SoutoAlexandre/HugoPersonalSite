@@ -4,6 +4,7 @@ title = "IA & UX 🤖"
 date = "2023-01-30"
 description = "IA & UX 🤖"
 +++
+
 Lien de l'article : [Will artificial intelligence replace my job as a UX designer?](https://uxdesign.cc/will-artificial-intelligence-like-chatgpt-and-dall-e-replace-my-job-as-a-user-experience-designer-93f26d8c109)
 
 ## Introduction et pourquoi ce choix 

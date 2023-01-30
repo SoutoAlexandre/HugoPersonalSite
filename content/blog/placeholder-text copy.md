@@ -1,7 +1,7 @@
 +++
 author = "Alexandre Souto"
 title = "L'équilibre ⚖️ entre le SEO et l'UX"
-date = "2019-03-09"
+date = "2023-01-30"
 description = "L'équilibre ⚖️ entre le SEO et l'UX"
 +++
 
