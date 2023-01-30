@@ -1,148 +1,26 @@
 +++
 author = "Hugo Authors"
-title = "Markdown Syntax Guide"
-date = "2019-03-11"
-description = "Sample article showcasing basic Markdown syntax."
-tags = [
-    "markdown",
-    "css",
-    "html",
-]
-categories = [
-    "themes",
-    "syntax",
-]
-series = ["Themes Guide"]
-aliases = ["migrate-from-jekyl"]
+title = "Expérience 🧪 : Test de Framer."
+date = "2023-01-30"
+description = "Expérience 🧪 : Test de Framer."
 +++
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-<!--more-->
+## Problème rencontré
+ Même si je ne suis qu’un novice dans la création d’interfaces, les quelques projets d’équipe que j’ai réalisés m’ont fait me dire « le développement de cette application serait tellement plus simple si je pouvais directement avoir le code HTML et CSS des maquettes que je crée ». C’est suite à des rumeurs que je me suis dit qu’il fallait que j’entame une veille active pour trouver des solutions à ce problème. 
 
-## Headings
+Quelle désillusion ce fut lorsque je testa Function12, un site me promettant de transformer mes designs Figma de directement en code. En effet, le rendu n’était pas du tout suffisant, beaucoup des éléments du design étaient modifiés, voire supprimés, et cela demandait donc un effort trop important pour obtenir un résultat acceptable.
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+## La Solution 
+J’ai ensuite dû créer un portfolio dans le cadre d’un cours servant à l’insertion dans le monde du travail et j’ai décidé de le faire sur Webflow.
+Webflow est un CMS équipé d’un builder permettant de créer un site web sans connaissances de code exceptées pour le CSS. C’est un des langages dans lequel je ne suis pas trop mauvais et c’était donc un bon compromis pour la création d’un portfolio. Cependant, j’ai rencontré des difficultés à m’exprimer exactement comme je le voulais, perdant trop de temps sur des notions de positions relatives, absolues ou encore la gestion des flexbox.
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+J’ai tout de même fait ce portfolio, mais avec plus de difficultés et un moins bon résultat qu’espéré. 
 
-## Paragraph
+J’ai ensuite entendu parler de Framer. Tout comme Webflow, Framer est un logiciel en ligne permettant de construire un site web. Là où il se différencie de Webflow c’est que toute la partie CSS est amoindrie au profit d’une interface plus semblable aux logiciels de design comme Figma. Mais la fonctionnalité qui change la donne est bien la possibilité de copier des éléments figma et grâce à n plug-in, de directement les coller dans Framer sans l’ombre d’un souci. 
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+Je n’en croyais pas mes yeux. Il fallait que je teste plus en profondeur. Je me suis donc amusé à créer le site d’une maquette que j’avais faite sur Figma. Je l’ai reconstitué en un temps record. 
 
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+## Conclusion de l'expérience
+En définitive. je pense donc avoir trouvé un outil fiable me permettant de publier des sites vitrine et des applications simples directement après en avoir créé les maquettes sur des logiciels de design, en l’occurrence Figma 
 
-## Blockquotes
-
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
-
-#### Blockquote without attribution
-
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use *Markdown syntax* within a blockquote.
-
-#### Blockquote with attribution
-
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
-
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
-
-## Tables
-
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
-
-   Name | Age
---------|------
-    Bob | 27
-  Alice | 23
-
-#### Inline Markdown within tables
-
-| Italics   | Bold     | Code   |
-| --------  | -------- | ------ |
-| *italics* | **bold** | `code` |
-
-## Code Blocks
-
-#### Code block with backticks
-
-```html
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-```
-
-#### Code block indented with four spaces
-
-    <!doctype html>
-    <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
-
-#### Code block with Hugo's internal highlight shortcode
-{{< highlight html >}}
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-{{< /highlight >}}
-
-## List Types
-
-#### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-#### Unordered List
-
-* List item
-* Another item
-* And another item
-
-#### Nested list
-
-* Fruit
-  * Apple
-  * Orange
-  * Banana
-* Dairy
-  * Milk
-  * Cheese
-
-## Other Elements — abbr, sub, sup, kbd, mark
-
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+Lien vers Framer : [Lien vers Framer](https://www.framer.com)
