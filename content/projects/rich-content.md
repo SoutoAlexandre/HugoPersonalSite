@@ -29,15 +29,15 @@ Voilà un petit résumé de mon travail de création de système d’écoute. Gr
 
 ## Listes des émetteurs  
 
-uxswipe - Instagram - Daily UX tips in your feed  
-ui.sergio- Instagram - UX/UI Designer  
-uiadrian - Instagram - Concepteur, auteur : The ultimate guide to master mobile  
-zanderwhitehurst - Instagram - Concepteur UX/UI  
-Luke Wroblewski - Twitter @lukew - Expert design mobile  
-Smashing Magazine - Twitter @smashingmag - Articles UX   
-UX Collective - Newsletter / Linkedin - weekly newsletter    
-UX Magazine - Linkedin - Hub to discuss user experience   
-Nielsen Norman Group - site web - UX news   
-UXmatters - blog - pratiques UX   
-Dribbble - Plateforme de partage de designers   
-Behance - Plateforme de partage d’artistes   
+* uxswipe - Instagram - Daily UX tips in your feed  
+* ui.sergio- Instagram - UX/UI Designer  
+* uiadrian - Instagram - Concepteur, auteur : The ultimate guide to master mobile  
+* zanderwhitehurst - Instagram - Concepteur UX/UI  
+* Luke Wroblewski - Twitter @lukew - Expert design mobile  
+* Smashing Magazine - Twitter @smashingmag - Articles UX   
+* UX Collective - Newsletter / Linkedin - weekly newsletter    
+* UX Magazine - Linkedin - Hub to discuss user experience   
+* Nielsen Norman Group - site web - UX news   
+* UXmatters - blog - pratiques UX   
+* Dribbble - Plateforme de partage de designers   
+* Behance - Plateforme de partage d’artistes   
