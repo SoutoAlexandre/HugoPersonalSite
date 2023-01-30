@@ -1,48 +1,23 @@
 +++
-author = "Hugo Authors"
-title = "Placeholder Text"
-date = "2019-03-09"
-description = "Lorem Ipsum Dolor Si Amet, a placeholder text. 👨‍💻"
-tags = [
-    "markdown",
-    "text",
-]
-categories = [
-    "theme"
-]
+author = "Alexandre Souto"
+title = "IA & UX 🤖"
+date = "2023-01-30"
+description = "IA & UX 🤖"
 +++
+Lien de l'article : [Will artificial intelligence replace my job as a UX designer?](https://uxdesign.cc/will-artificial-intelligence-like-chatgpt-and-dall-e-replace-my-job-as-a-user-experience-designer-93f26d8c109)
 
-Lorem est tota propiore conpellat pectoribus de pectora summo. <!--more-->Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
+## Introduction et pourquoi ce choix 
+C’est peut-être ces derniers temps que l’on le plus entendu parlé d’intelligence artificielle, au du moins, avec l’arrivée de ChatGPT, qu’autant de personnes se rendent compte de ce que pouvait faire une intelligence artificielle et qu’elles pouvaient aussi l’utiliser. Le titre de cet article m’a donc tout de suite tapé dans l’œil puisque c’est un sujet on ne peut plus actuel.
 
-1. Exierant elisi ambit vivere dedere
-2. Duce pollice
-3. Eris modo
-4. Spargitque ferrea quos palude
+## Pourquoi il ne faut pas se faire de souci
 
-Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.
+L’article explique rapidement que pour le domaine de l’expérience utilisateur, l’IA n’était pas près de dépasser les humains. En effet, l’analyse et la compréhension de décisions et des comportements humains ne peuvent pas être mieux réalisés (pour l’instant du moins) que par des humains. L’esprit humain est si complexe que bon nombre de ces comportements sont même difficiles à expliquer par des experts du domaine. De surcroit, l’article explique que le mot « intelligence » suggère une certaine créative que n’a pas ChatGPT et les autres intelligences pour l’instant.
 
-1. Comas hunc haec pietate fetum procerum dixit
-2. Post torum vates letum Tiresia
-3. Flumen querellas
-4. Arcanaque montibus omnes
-5. Quidem et
+L’écrit donne ensuite des exemples concrets de tâches UX réalisées par l’IA comme des Customer Journey Map, des User Flows, des wireframes… Rien de très concluant en effet.
 
-# Vagus elidunt
+Il est possible que l’IA puisse remplacer certaines tâches en tant que designer d’expérience utilisateur dans le futur. Cependant, il est important de se rappeler que l’IA est un outil et qu’elle ne peut pas remplacer la créativité et la capacité à comprendre les besoins et les motivations des utilisateurs, qui sont des compétences clés d’un designer d’expérience utilisateur. 
 
-<svg class="canon" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496"><g fill="none"><path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515"></path><path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z"></path><path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372"></path><ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25"></ellipse><ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25"></ellipse></g></svg>
+## Conclusion 
+En résumé, l’IA peut être un outil pour aider les designers d’expérience utilisateur dans leur travail, mais il est peu probable qu’elle remplace complètement les designers d’expérience utilisateur.
 
-[The Van de Graaf Canon](https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon)
-
-## Mane refeci capiebant unda mulcebat
-
-Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. **Faces illo pepulere** tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.
-
-Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.
-
-Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel **mitis temploque** vocatus, inque alis, *oculos nomen* non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides **parte**.
-
-{{< css.inline >}}
-<style>
-.canon { background: white; width: 100%; height: auto; }
-</style>
-{{< /css.inline >}}
+Cet article m’a donc rassuré quant au fait que j’ai bien choisi mon métier et je le brandirai comme faire de lance quand des personnes de mon domaine me diront que l’UX sera remplacé par des machines.
